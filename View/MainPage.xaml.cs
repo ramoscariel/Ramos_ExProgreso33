@@ -1,4 +1,4 @@
-﻿namespace Ramos_ExProgreso33;
+﻿namespace Ramos_ExProgreso33.View;
 
 public partial class MainPage : ContentPage
 {

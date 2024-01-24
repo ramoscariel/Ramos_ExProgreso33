@@ -3,14 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ramos_ExProgreso33.View.MainPage"
              >
+    <ScrollView>
+        <VerticalStackLayout>
+            <Button x:Name="boton" Text="Buscar Fruta" Clicked="BotonClicked">
 
-    <VerticalStackLayout>
-        <Button x:Name="boton" Text="Buscar Fruta" Clicked="BotonClicked">
-            
-        </Button>
-        <Label x:Name="datos">
-            
-        </Label>
-    </VerticalStackLayout>
+            </Button>
+            <Label x:Name="datos">
+
+            </Label>
+        </VerticalStackLayout>
+    </ScrollView>
+    
 
 </ContentPage>

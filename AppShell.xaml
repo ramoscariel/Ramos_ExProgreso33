@@ -13,7 +13,7 @@
         <ShellContent
 Title="Mis Frutas"
 ContentTemplate="{DataTemplate local:View.MisFrutas}"
-Route="MainPage" />
+ />
     </TabBar>
     
 

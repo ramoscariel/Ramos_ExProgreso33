@@ -53,8 +53,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Model\" />
 	  <Folder Include="ViewModel\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="View\MisFrutas.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

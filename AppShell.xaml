@@ -5,10 +5,16 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Ramos_ExProgreso33"
     Shell.FlyoutBehavior="Disabled">
-
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <ShellContent
+    Title="Descubrir Frutas"
+    ContentTemplate="{DataTemplate local:View.MainPage}"
+    Route="MainPage" />
+        <ShellContent
+Title="Mis Frutas"
+ContentTemplate="{DataTemplate local:View.MisFrutas}"
+Route="MainPage" />
+    </TabBar>
+    
 
 </Shell>
